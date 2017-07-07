@@ -1,3 +1,4 @@
+import psycopg2
 import os
 from cs50 import SQL
 from flask import Flask, flash, redirect, render_template, request, session, url_for
@@ -29,7 +30,7 @@ app.config["SESSION_TYPE"] = "filesystem"
 Session(app)
 
 # configure CS50 Library to use SQLite database
-db = SQL("sqlite:///finance.db")
+db = SQL(os.environ.get("DATABASE_URL" or "sqlite:///finance.db"))
 
 @app.route("/")
 @login_required
