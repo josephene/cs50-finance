@@ -1,0 +1,104 @@
+.container
+{
+    /* center contents */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* colors for navbar */
+.navbar-default .navbar-brand .blue
+{
+    color: #537fbe;
+}
+.navbar-default .navbar-brand .red
+{
+    color: #ea433b;
+}
+.navbar-default .navbar-brand .yellow
+{
+    color: #f5b82e;
+}
+.navbar-default .navbar-brand .green
+{
+    color: #2e944b;
+}
+
+.financetitle{
+    font-family: Montserrat, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.montserrat{
+    font-family: Montserrat, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+body{
+    font-family: Lato, Helvetica, sans-serif;
+}
+
+main .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+main img
+{
+    /* constrain images on small screens */
+    max-width: 100%;
+}
+
+main thead{
+    font-weight: bold;
+}
+
+main td
+{
+    /* left-align tables' cells */
+    text-align: left;
+}
+
+main tfoot
+{
+    font-weight: bold;
+}
+
+.maintitle{
+    font-family: Montserrat, Helvetica, sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 4% 4% 4% 4%;
+    letter-spacing: 16px;
+    background-image: url('http://www.designlovefest.com/wp-content/uploads/downloads/2017/05/DLF_Wallpaper_AshleyMary_1.jpg');
+    background-size: 112%;
+    background-position: left center;
+    color: #f9f9f9;
+}
+
+
+.pagetitle{
+    font-family: Montserrat, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 4% 4% 4% 4%;
+    letter-spacing: 4px;
+}
+
+.pagetitletext{
+    border-bottom:3px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-style:solid;
+    border-color:#020202;
+    padding: 0.5em;
+}

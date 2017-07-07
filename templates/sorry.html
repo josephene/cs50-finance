@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block main %}
+    <script>
+        var timer = setTimeout(function() {
+            window.location='http://ide50-josepheneg.cs50.io:8080/'
+        }, 2000);
+    </script>
+
+    <div class="alert alert-danger" role="alert">
+      <h4 class="alert-heading">{{ alert }}</h4>
+      <p>{{ explain }}</p>
+    </div>
+{% endblock %}

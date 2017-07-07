@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block main %}
+    <script>
+        var timer = setTimeout(function() {
+            window.location='http://ide50-josepheneg.cs50.io:8080/'
+        }, 2000);
+    </script>
+
+    <!--<div class="alert alert-success" role="alert">-->
+    <!--  <h4 class="alert-heading">Bought!</h4>-->
+    <!--  <p>Your shares have been purchased successfully!</p>-->
+    <!--</div>-->
+    
+    <div class="alert alert-success" role="alert">
+      <h4 class="alert-heading">{{ alert }}</h4>
+      <p>{{ explain }}</p>
+    </div>
+{% endblock %}

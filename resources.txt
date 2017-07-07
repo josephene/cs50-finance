@@ -1,0 +1,9 @@
+read html from http://pset7.cs50.net/ 
+testing errors in buy.html and sell.html https://docs.python.org/3/tutorial/errors.html
+understand use of GROUP BY function https://www.tutorialspoint.com/sqlite/sqlite_group_by.htm
+redirecting success/failure https://stackoverflow.com/questions/3292038/redirect-website-after-certain-amount-of-time
+different types of brackets https://stackoverflow.com/questions/30700603/different-meanings-of-brackets-in-python
+for in syntax https://docs.python.org/3/tutorial/controlflow.html
+attribute error https://stackoverflow.com/questions/8949252/python-attribute-error-nonetype-object-has-no-attribute-something
+alerts from bootstrap https://v4-alpha.getbootstrap.com/components/alerts/
+navigation symbols http://getbootstrap.com/components/
